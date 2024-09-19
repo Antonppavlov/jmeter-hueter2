@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.jetbrains.lets-plot</groupId>
+  <artifactId>lets-plot-batik</artifactId>
+  <version>2.2.1</version>
+  <name>Lets-Plot for Swing/Batik</name>
+  <description>Lets-Plot JVM package with Swing/Batik rendering</description>
+  <url>https://github.com/JetBrains/lets-plot</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://raw.githubusercontent.com/JetBrains/lets-plot/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>jetbrains</id>
+      <name>JetBrains</name>
+      <email>lets-plot@jetbrains.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/JetBrains/lets-plot</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.xmlgraphics</groupId>
+      <artifactId>batik-codec</artifactId>
+      <version>1.14</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.lets-plot</groupId>
+      <artifactId>lets-plot-common</artifactId>
+      <version>2.2.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-html-jvm</artifactId>
+      <version>0.7.3</version>
+    </dependency>
+  </dependencies>
+</project>
